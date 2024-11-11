@@ -12,7 +12,7 @@ metadata:
     - url: https://admin.example-org.com
       title: Admin Dashboard
       icon: dashboard
-      type: admin-dashboard
+      type: dashboard
       - url: https://admin.example-org.com
       title: Wiki
       icon: backstage
@@ -28,7 +28,7 @@ metadata:
       - url: https://admin.example-org.com
       title: Runbook
       icon: confluence
-      type: admin-dashboard
+      type: runbook
   description: Email handler service
   tags:
     - component
