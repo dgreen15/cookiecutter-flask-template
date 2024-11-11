@@ -30,12 +30,12 @@ metadata:
   description: Email handler service
   tags: ["framework:spring", "db:mysql"]
   name: email-handler
-  dependsOn:
-    - component: emailer
-    - component: email-service
-  system: logistics
 spec:
   lifecycle: Production
   tier: Tier 1
   owner: delivery-app
   type: service
+  system: email-platform
+  dependsOn:
+    - component: emailer
+    - component: email-service
