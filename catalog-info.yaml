@@ -3,8 +3,6 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    components.backstage.egencia.com/pipeline-enabled: 'true'
-    components.backstage.egencia.com/track-platform-compliance: 'true'
     github.com/project-slug: Egencia/travelfusion-pad-service
     pagerduty.com/service-id: P26LTN8
     pagerduty.com/account: datadog
