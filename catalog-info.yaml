@@ -30,16 +30,13 @@ metadata:
       icon: confluence
       type: runbook
   description: Email handler service
-  tags:
-    - component
-    - service
-    - backstage
+  tags: ["framework:spring", "db:mysql"]
   name: email-handler
   dependsOn:
     - component:emailer
-  system: email-platform
+  system: logistics
 spec:
   lifecycle: Production
   tier: Tier 1
-  owner: Communication
+  owner: delivery-app
   type: service
