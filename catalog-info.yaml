@@ -40,5 +40,6 @@ metadata:
   system: email-platform
 spec:
   lifecycle: Production
+  tier: Tier 1
   owner: Communication
   type: service
