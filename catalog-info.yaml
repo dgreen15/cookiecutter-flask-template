@@ -9,15 +9,15 @@ metadata:
     pagerduty.com/service-id: ZZZZZZZ
     pagerduty.com/account: datadog
   links:
-    - url: https://admin.example-org.com
+    - url: https://app.datadoghq.com/dashboard/t5p-9gb-3k4/welcome-to-us1-dd-demo-11287?fromUser=false&refresh_mode=sliding&from_ts=1731344898026&to_ts=1731348498026&live=true
       title: Performance Dashboard
       icon: dashboard
       type: dashboard
-    - url: https://admin.example-org.com
+    - url: https://backstage.core.shopist.org/docs/default/component/rollback
       title: Wiki
       icon: backstage
       type: admin-dashboard
-    - url: https://admin.example-org.com
+    - url: https://shopist.atlassian.net/browse/DA
       title: Jira
       icon: Jira
       type: admin-dashboard
@@ -25,7 +25,7 @@ metadata:
       title: Source
       icon: gitlab
       type: admin-dashboard
-    - url: https://admin.example-org.com
+    - url: https://shopist.atlassian.net/wiki/spaces/DA
       title: Runbook
       icon: confluence
       type: runbook
