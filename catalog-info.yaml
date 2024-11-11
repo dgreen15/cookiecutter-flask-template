@@ -13,19 +13,19 @@ metadata:
       title: Performance Dashboard
       icon: dashboard
       type: dashboard
-      - url: https://admin.example-org.com
+    - url: https://admin.example-org.com
       title: Wiki
       icon: backstage
       type: admin-dashboard
-      - url: https://admin.example-org.com
+    - url: https://admin.example-org.com
       title: Jira
       icon: Jira
       type: admin-dashboard
-      - url: https://admin.example-org.com
+    - url: https://admin.example-org.com
       title: Source
       icon: gitlab
       type: admin-dashboard
-      - url: https://admin.example-org.com
+    - url: https://admin.example-org.com
       title: Runbook
       icon: confluence
       type: runbook
