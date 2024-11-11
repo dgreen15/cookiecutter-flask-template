@@ -11,6 +11,22 @@ metadata:
       title: Admin Dashboard
       icon: dashboard
       type: admin-dashboard
+      - url: https://admin.example-org.com
+      title: Wiki
+      icon: backstage
+      type: admin-dashboard
+      - url: https://admin.example-org.com
+      title: Jira
+      icon: Jira
+      type: admin-dashboard
+      - url: https://admin.example-org.com
+      title: Source
+      icon: gitlab
+      type: admin-dashboard
+      - url: https://admin.example-org.com
+      title: Runbook
+      icon: confluence
+      type: admin-dashboard
   description: Email handler service
   tags:
     - component
@@ -21,6 +37,6 @@ metadata:
     - component:emailer
   system: email-platform
 spec:
-  lifecycle: production
-  owner: communication
+  lifecycle: Production
+  owner: Communication
   type: service
