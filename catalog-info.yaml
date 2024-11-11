@@ -10,7 +10,7 @@ metadata:
     pagerduty.com/account: datadog
   links:
     - url: https://admin.example-org.com
-      title: Admin Dashboard
+      title: Performance Dashboard
       icon: dashboard
       type: dashboard
       - url: https://admin.example-org.com
