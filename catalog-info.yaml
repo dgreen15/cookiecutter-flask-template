@@ -6,13 +6,20 @@ metadata:
     components.backstage.egencia.com/pipeline-enabled: 'true'
     components.backstage.egencia.com/track-platform-compliance: 'true'
     github.com/project-slug: Egencia/travelfusion-pad-service
-  description: This is a test, will delete soon
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
+  description: Email handler service
   tags:
     - component
     - service
     - backstage
-  name: nick-test-backstage
+  name: email-handler
+  dependsOn:
+    - component:emailer
 spec:
   lifecycle: production
-  owner: egencia-air-pampero
+  owner: communication
   type: service
