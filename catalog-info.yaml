@@ -6,7 +6,7 @@ metadata:
     components.backstage.egencia.com/pipeline-enabled: 'true'
     components.backstage.egencia.com/track-platform-compliance: 'true'
     github.com/project-slug: Egencia/travelfusion-pad-service
-    pagerduty.com/service-id: ZZZZZZZ
+    pagerduty.com/service-id: P26LTN8
     pagerduty.com/account: datadog
   links:
     - url: https://app.datadoghq.com/dashboard/t5p-9gb-3k4/welcome-to-us1-dd-demo-11287?fromUser=false&refresh_mode=sliding&from_ts=1731344898026&to_ts=1731348498026&live=true
