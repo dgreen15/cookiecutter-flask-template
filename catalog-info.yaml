@@ -31,7 +31,7 @@ metadata:
   tags: ["framework:spring", "db:mysql"]
   name: email-handler
   dependsOn:
-    - component:emailer
+    - component: emailer
     - component: email-service
   system: logistics
 spec:
