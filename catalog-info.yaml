@@ -32,7 +32,7 @@ metadata:
   name: email-handler
 spec:
   lifecycle: Production
-  tier: Tier 1
+  tier: 1
   owner: delivery-app
   type: service
   system: email-platform
