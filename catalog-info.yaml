@@ -36,5 +36,3 @@ spec:
   owner: delivery-app
   type: service
   system: email-platform
-  dependsOn:
-    - resource:default/artists-db
