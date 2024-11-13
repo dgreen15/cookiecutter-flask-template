@@ -36,3 +36,6 @@ spec:
   owner: delivery-app
   type: service
   system: email-platform
+  dependsOn:
+    - component:email-service
+  
