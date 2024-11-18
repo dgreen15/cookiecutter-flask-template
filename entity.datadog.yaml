@@ -2,7 +2,7 @@ apiVersion: v3
 kind: service
 spec: 
   inheritFrom:
-    -system:shopist
+    - system:shopist
 metadata:
   name: myapp
   displayName: My App
