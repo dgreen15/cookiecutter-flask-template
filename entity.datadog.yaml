@@ -35,6 +35,8 @@ metadata:
   additionalOwners:
     - name: opsTeam
       type: operator
+  inheritFrom:
+    - system:shopist
 extensions:
   datadoghq.com/shopping-cart:
     customField: customValue
