@@ -27,7 +27,7 @@ metadata:
       title: Runbook
       icon: confluence
       type: runbook
-  description: Email handler service
+  description: Email handler service for my team
   tags: ["framework:spring", "db:mysql"]
   name: email-handler
 spec:
