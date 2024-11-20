@@ -33,7 +33,7 @@ metadata:
 spec:
   lifecycle: Production
   tier: 1
-  owner: serverless
+  owner: delivery-app
   type: service
   system: email-platform
   dependsOn:
