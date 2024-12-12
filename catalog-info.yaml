@@ -33,7 +33,7 @@ metadata:
 spec:
   lifecycle: Production
   tier: 1
-  owner: delivery-app
+  owner: delivery-app-team
   type: service
   system: email-platform
   dependsOn:
