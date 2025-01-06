@@ -5,7 +5,7 @@ spec:
     - system:shopist
 metadata:
   name: myapp
-  displayName: My App
+  displayName:: My App
   tags:
     - tag:value
   links:
