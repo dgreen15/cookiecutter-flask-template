@@ -1,40 +1,21 @@
 apiVersion: v3
 kind: service
-spec: 
-  inheritFrom:
-    - system:shopist
 metadata:
-  name: myapp
-  secondName: myapp2
-  displayName: My App
-  tags:
-    - tag:value
-  links:
-    - nam: shopping-cart runbook
-      type: runbook
-      url: https://runbook/shopping-cart
-    - name: shopping-cart architecture
-      provider: gdoc
-      url: https://google.drive/shopping-cart-architecture
-      type: doc
-    - name: shopping-cart Wiki
-      provider: wiki
-      url: https://wiki/shopping-cart
-      type: doc
-    - name: shopping-cart source code
-      provider: github
-      url: http://github/shopping-cart
-      type: repo
-  contacts:
-    - name: Support Email
-      type: email
-      contact: team@shopping.com
-    - name: Support Slack
-      type: slack
-      contact: https://www.slack.com/archives/shopping-cart
-  owner: myteam
-  additionalOwners:
-    - name: opsTeam
-      type: operator
-  inheritFrom:
-    - system:shopist
+  name: december-test
+  description: This is a temporary service
+  displayName: december-test
+  owner: december
+spec:
+  lifecycle: production
+  type: web
+--
+apiVersion: v3
+kind: service
+metadata:
+  name: december-test-2
+  description: This is a temporary service
+  displayName: december-test-2
+  owner: december
+spec:
+  lifecycle: production
+  type: web
