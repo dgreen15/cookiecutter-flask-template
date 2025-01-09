@@ -16,6 +16,7 @@ metadata:
   description: This is a temporary service
   displayName: Java App
   owner: App Team
+  name: Daniel
 spec:
   lifecycle: production
   type: web
