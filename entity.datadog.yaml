@@ -8,7 +8,7 @@ metadata:
 spec:
   lifecycle: production
   type: web
---
+---
 apiVersion: v3
 kind: service
 metadata:
