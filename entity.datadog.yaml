@@ -2,7 +2,7 @@ apiVersion: v3
 kind: service
 metadata:
   name: flask-application
-  description: This is a temporary service
+  descriptin: This is a temporary service
   displayName: Flask App
   owner: App Team
 spec:
