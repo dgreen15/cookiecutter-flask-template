@@ -1,0 +1,9 @@
+apiVersion: v3
+kind: service
+metadata:
+  name: testing-inheritances
+  inheritFrom: system:email-platform
+  displayName: Test
+spec:
+  dependsOn:
+    - api:bitsburg
