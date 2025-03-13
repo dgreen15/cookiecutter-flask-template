@@ -34,7 +34,7 @@ spec:
   lifecycle: Production
   tier: 1
   owner: delivery-app-teams
-  type: service
+  type: iac-repo
   system: email-platform
   dependsOn:
     - component:email-service
